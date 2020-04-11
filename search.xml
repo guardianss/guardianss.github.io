@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>proxy</title>
+      <link href="/proxy.html"/>
+      <url>/proxy.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="代理相关"><a href="#代理相关" class="headerlink" title="代理相关"></a>代理相关</h1><ul><li><a href="#%e4%bb%a3%e7%90%86%e7%9b%b8%e5%85%b3">代理相关</a><ul><li><a href="#yarn-%e7%9a%84%e4%bb%a3%e7%90%86">yarn 的代理</a></li><li><a href="#git-%e7%9a%84%e4%bb%a3%e7%90%86">Git 的代理</a><ul><li><a href="#http-%e4%bb%a3%e7%90%86">HTTP 代理</a></li></ul></li><li><a href="#ssh-%e7%9a%84%e4%bb%a3%e7%90%86">SSH 的代理</a><ul><li><a href="#http-%e4%bb%a3%e7%90%86-1">HTTP 代理</a></li></ul></li><li><a href="#%e9%85%8d%e7%bd%ae%e5%ae%8c%e6%88%90">配置完成</a></li><li><a href="#%e5%8f%96%e6%b6%88%e4%bb%a3%e7%90%86">取消代理</a></li></ul></li></ul><h2 id="yarn-的代理"><a href="#yarn-的代理" class="headerlink" title="yarn 的代理"></a>yarn 的代理</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yarn config <span class="built_in">set</span> proxy http://127.0.0.1:7890</span><br><span class="line">yarn config <span class="built_in">set</span> https-proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><blockquote><p>解释：实际上修改的是 <code>~/.yarnrc</code> 文件</p></blockquote><h2 id="Git-的代理"><a href="#Git-的代理" class="headerlink" title="Git 的代理"></a>Git 的代理</h2><h3 id="HTTP-代理"><a href="#HTTP-代理" class="headerlink" title="HTTP 代理"></a>HTTP 代理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.https://github.com.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><blockquote><p>解释：实际上修改的是 <code>~/.gitconfig</code> 文件</p></blockquote><h2 id="SSH-的代理"><a href="#SSH-的代理" class="headerlink" title="SSH 的代理"></a>SSH 的代理</h2><h3 id="HTTP-代理-1"><a href="#HTTP-代理-1" class="headerlink" title="HTTP 代理"></a>HTTP 代理</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.ssh/config</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">    User git</span><br><span class="line">    ProxyCommand connect -H 127.0.0.1:7890 %h %p</span><br></pre></td></tr></table></figure><h2 id="配置完成"><a href="#配置完成" class="headerlink" title="配置完成"></a>配置完成</h2><p><strong>注意：要重启终端</strong></p><h2 id="取消代理"><a href="#取消代理" class="headerlink" title="取消代理"></a>取消代理</h2><p>当你没使用代理软件的时候如果直接使用 yarn、Git、ssh 会报错，所以最好的做法就是使用这些工具的时候<del>翻墙</del>，如果不翻墙的时候就把修改的文件内容注释掉即可（我没想错的话就是在相应行的开头加上 <code>#</code> 这个符号）</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo命令总结</title>
       <link href="/hexo-commands.html"/>
       <url>/hexo-commands.html</url>
