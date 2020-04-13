@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://guardianss.github.io/tags/</loc>
+        <lastmod>2020-04-11T11:04:58.368Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://guardianss.github.io/link/</loc>
         <lastmod>2020-04-10T14:56:15.047Z</lastmod>
         <changefreq>weekly</changefreq>
