@@ -9,14 +9,21 @@
     
     <url>
         <loc>https://guardianss.github.io/Gallery/</loc>
-        <lastmod>2020-04-15T03:09:18.448Z</lastmod>
+        <lastmod>2020-04-15T08:08:22.907Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://guardianss.github.io/movies/</loc>
-        <lastmod>2020-04-15T03:07:19.687Z</lastmod>
+        <loc>https://guardianss.github.io/link/</loc>
+        <lastmod>2020-04-15T08:05:42.758Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://guardianss.github.io/about/</loc>
+        <lastmod>2020-04-15T08:03:40.688Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -24,20 +31,6 @@
     <url>
         <loc>https://guardianss.github.io/archives/</loc>
         <lastmod>2020-04-15T03:06:00.778Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://guardianss.github.io/music/</loc>
-        <lastmod>2020-04-14T15:01:29.519Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://guardianss.github.io/about/</loc>
-        <lastmod>2020-04-14T14:48:57.187Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -52,13 +45,6 @@
     <url>
         <loc>https://guardianss.github.io/tags/</loc>
         <lastmod>2020-04-11T11:04:58.368Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://guardianss.github.io/link/</loc>
-        <lastmod>2020-04-10T14:56:15.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
